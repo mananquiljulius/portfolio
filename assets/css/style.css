@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*NAVBAR*/
+#navhome {
+	color: #f2f2f2;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#mynav {
+
+	background-color: #247BA0;
+}
+.navbar {
+	padding: 0px;
+}
+/*landing page*/
+.hero-image {
+ 	margin-top: 40px;
+    background-image: url("../images/bg1.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+}
+#myname {
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 60px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin-top: 400px;
+
+}
+#fs {
+	margin-bottom: 30px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size: 40px;
+}
+
+.animated.bounce {
+	animation-iteration-count: infinite;
+}
+#abouth, #projectsh, #skillsh, #contacth{
+	margin-top: 40px;
+	font-family: 'Yatra One', cursive;
+	font-size: 50px;
+}
+.aboutp{
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size: 25px;
+}
+
+/*PROJECT SECTION*/
+#projectsec {
+	margin-top: -40px;
+	background: #f2f2f2;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 36vh;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Chicle', cursive;
+    font-size: 30px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 769px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+/*SKILLS SEC*/
+.jumbotron {
+	border-radius: 0;
+	background-image: url(../images/skillsbg.jpg);
+    background-position: center;
+    /*width: 100%;*/
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.skillimg {
+	height: 20vh;
+	margin: 20px;
+
+}
+
+.progress {
+	margin-top: 100px;
+
+}
+
+@media (min-width: 359px) and (max-width: 767px){
+	.progress {
+		width: 100%;
+		margin-top: 5px;
+		/*display: inline;*/
+	}
+	.skillimg {
+		margin-left: 90px;
+	}
+	#email {
+		font-size: 18px;
+	}
+	#myname {
+		margin-top: 400px;
+		font-size: 25px;
+	}
+	#fs {
+		font-size: 20px;
+	}
+	.hero-image {
+		margin-top: 30px;
+	}
+
+ 
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	.progress {
+		width: 100%;
+
+		/*display: inline;*/
+	}
+	#myname {
+		margin-top: 500px;
+		font-size: 50px;
+	}
+	.hero-image {
+		margin-top: 30px;
+	}
+}
+
+
+
+
+/*CONTACT SEC*/
+.contactimg{
+	height: 5vh;
+	margin-top: 5px;
+}
+h5{
+	display: inline;
+}
+.socmed {
+	margin-top: 10px;
+}
+
+#contactsec{
+	margin-bottom: 20px;
+}
+
+/*about*/
+#me {
+	width: 50%;
+	margin-top: 40px;
+}
+
