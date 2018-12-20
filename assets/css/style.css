@@ -180,8 +180,9 @@ div.desc {
 
 /*CONTACT SEC*/
 .contactimg{
-	height: 5vh;
+	height: 8vh;
 	margin-top: 5px;
+	margin-right: 10px;
 }
 h5{
 	display: inline;
